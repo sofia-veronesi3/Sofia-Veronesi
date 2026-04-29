@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #81ecec);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 20px;
+  color: #2d3436;
+}
+#configuracion, #respuesta {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  width: 300px;
+  text-align: center;
+}
+#numero {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 30px;
+  color: #2d3436;
+}
+input {
+  padding: 10px;
+  margin: 8px 0;
+  width: 90%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 90%;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #0652DD;
+}
+button:disabled {
+  background-color: #b2bec3;
+  cursor: not-allowed;
+}
+#mensaje {
+  margin-top: 15px;
+  text-align: center;
+}
+.cartel {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.correcto {
+  background-color: #00b894;
+  color: white;
+}
+.incorrecto {
+  background-color: #d63031;
+  color: white;
+}

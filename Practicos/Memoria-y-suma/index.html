@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Memoria y Suma</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Juego de Memoria y Suma</h1>
+
+  <div id="configuracion">
+    <label>Cantidad de números:</label>
+    <input type="number" id="cantidad" value="5">
+
+    <label>Incluir negativos</label>
+    <input type="checkbox" id="negativos" checked>
+
+    <button  id="botonIniciar" onclick="iniciarJuego()">Iniciar</button>
+  </div>
+
+  <div id="numero"></div>
+
+  <div id="respuesta">
+    <label>Ingresa el total:</label>
+    <input type="number" id="botonRespuesta" placeholder="Resultado">
+    <button  id="botonVerificar" onclick="validarRespuesta()">Verificar</button>
+  </div>
+
+  <p id="mensaje"></p>
+
+  <script src="js/fn.js"></script>
+</body>
+
+</html>
